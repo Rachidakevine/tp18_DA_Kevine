@@ -143,7 +143,7 @@
    color: #696868;
  }
   .card_prix2 {
-    background-color: #fdf2e9;
+    background-color: #ea6c05;
   }
   
   .card_prix1 {
@@ -195,14 +195,14 @@
     text-align: center;
   }
   
-  .btn-warning a {
+  /* .btn-warning a {
     text-decoration: none;
-    color: white;
+    color: rgb(248, 241, 241);
     font-weight: 500px;
   
-  }
+  } */
   .btn-warning{
-    margin-left: 20px;
+    margin-left: 100px;
     
   }
   
@@ -210,7 +210,7 @@
   .fa-apple-alt,
   .fa-feather-alt,
   .fa-pause {
-    background-color: #fdf2e9;
+    background-color: bisque;
     border-radius: 50%;
     width: 50px;
     height: 50px;
