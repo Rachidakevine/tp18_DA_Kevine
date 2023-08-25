@@ -1,7 +1,7 @@
 
   
   .omnifood {
-    height: 1.2rem;
+    height: 80px;
   }
   .dolar{
     font-size: 30px;
@@ -24,16 +24,16 @@
   
     position: absolute;
     left: 240px;
-    top: 55px;
+    top: 57px;
     z-index: 2;
-    width: 330px;
+    width: 300px;
   }
   
   .i2 {
     position: absolute;
     z-index: 3;
     width: 270px;
-    top: 150px;
+    top: 180px;
     left: 130px;
   }
   
@@ -41,7 +41,7 @@
     position: absolute;
     z-index: 1;
     width: 300px;
-    left: 70px;
+    left: 80px;
   }
   .how{
     color: orange; 
@@ -55,18 +55,6 @@
     font-size: 5rem;
     color: #575151;
     font-weight: bold;
-  
-  }
-  
-  .arriere_plan_phone {
-    width: 230px;
-    height: 150px;
-  
-    background-color: #fae5d3;
-    border-radius: 50%;
-    border: 25px solid #fdf2e9;
-    position: relative;
-    left: 100px;
   
   }
   
@@ -522,26 +510,31 @@
       margin-right: 0rem;
       margin-left: -3rem;
     }
+    
+    .container .p-5{
+      padding-top: 50px;
+    }
     .i1 {
   
       position: absolute;
-      left: 110px;
+      left: 100px;
       z-index: 2 ;
       width: 230px ;
+      top: 50px;
     }
   
     .i2 {
       position: absolute;
       z-index: 3;
-      width: 170px;
-      top: 120px ;
+      width: 100px;
+      top: 100px ;
       left: 100px;
     }
   
     .i3 {
       position: absolute ;
       z-index: 1 ;
-      width: 200px ;
+      width: 100px ;
       left: 60px ;
       top: -25px;
     }
@@ -645,8 +638,43 @@
      .learn{
       text-align: center;
     }
-    
+     
+  
+       
+       
+     }
+    @media (max-width:338px) { 
+  .i1 {
+  
+    position: absolute;
+    left: 90px;
+    top: 10px ;
+    z-index: 2;
+    width: 89px;
   }
+  
+  .i2 {
+    position: absolute;
+    z-index: 3;
+    width: 120px;
+    top: 50px;
+    left: 130px;
+  }
+  
+  .i3 {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    left: 70px;
+  }
+      .container .step{
+        padding-top: 200px;
+        
+      }   
+    } 
+    .star{
+     
+    }
   @media (max-width:418px){
     
   }
