@@ -3,7 +3,9 @@
   .omnifood {
     height: 1.2rem;
   }
-  
+  .dolar{
+    font-size: 30px;
+  }
 
   .hero {
     background-color: #fdf2e9;
@@ -12,6 +14,10 @@
   
   .menu_liste a {
     font-size: 1.5rem;
+  }
+  .more{
+    border-radius: 10px;
+    margin-top: 3px;
   }
   
   .i1 {
@@ -64,8 +70,9 @@
   
   }
   
-  .fa-check {
-    color: #e7862f;
+  .fa-check,
+  .fa-times {
+    color: #f97705;
   }
   
   .fa-burn,
@@ -136,8 +143,17 @@
     width: 500px;
     height: 500px;
   }
-  
-
+  .fa-facebook-f{
+   padding-right: 10px;
+   color: #696868;
+  }
+ .fa-twitter{
+   padding-left: 10px;
+   color: #696868;
+ }
+ .fa-instagram{
+   color: #696868;
+ }
   .card_prix2 {
     background-color: #fdf2e9;
   }
@@ -146,18 +162,44 @@
     border: 1px solid orange;
   
   }
+  .co{
+    width: 400px;
+    margin-left: 100px;
   
+  }
+  .phone1{
+    padding-left: 200px;
+    padding-right: 200px;
+    
+  }
+  .see-all{
+    color: orange;
+    
+  }
+  .vegei {
+    border-radius: 10px;
+    background-color: #8cc4b0;
+    
+  }
+  .vegete{
+    border-radius: 10px;
+    background-color: #04AA6D;
+  }
   .card_prix1,
   .card_prix2 {
     margin: 17px;
     padding: 19px;
   
   }
+  .btn-info{
+    background-color: rgb(73, 57, 36);
+    color: black;
+  }
   
   .prix {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
-  
+     color: #696868;
   }
   
   .prices_include {
@@ -171,6 +213,10 @@
     font-weight: 500px;
   
   }
+  .btn-warning{
+    margin-left: 20px;
+    
+  }
   
   .fa-infinity,
   .fa-apple-alt,
@@ -178,9 +224,10 @@
   .fa-pause {
     background-color: #fdf2e9;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    color: #f1b785;
+    width: 50px;
+    height: 50px;
+    color: #fc7702;
+    font-size: 40px;
   
   }
   
@@ -211,10 +258,7 @@
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
-  }
-  
-  .hero {}
-  
+  } 
   .hero-image {
   
     width: auto;
@@ -383,10 +427,6 @@
       width: 100%;
       z-index: 12;
     }
-    body{
-    
-    }
-  
     .topnav.responsive ul.menu_liste a {
       
       color: black
@@ -395,7 +435,6 @@
       color: orange;
     }
   }
-  
   
   @media (max-width:1198px) {
     .formulaire {
@@ -461,8 +500,6 @@
       width: 300px ;
       left: 100px ;
     }
-  
-  
   }
   
   @media (max-width:515px) {
@@ -485,9 +522,6 @@
       margin-right: 0rem;
       margin-left: -3rem;
     }
-    .img-party{
-    
-  }
     .i1 {
   
       position: absolute;
